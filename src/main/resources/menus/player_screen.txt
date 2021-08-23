@@ -1,0 +1,8 @@
+!line:=-=
+!center:DISCARD
+!discard
+!line:=-=
+!center:YOUR HAND
+!hand
+!line:=-=
+!center:Draw (D) or Play (Card Number)

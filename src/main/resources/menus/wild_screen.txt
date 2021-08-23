@@ -1,0 +1,7 @@
+!line:=-=
+!center:CHOOSE A COLOR
+!center:1) RED
+!center:2) YELLOW
+!center:3) GREEN
+!center:4) BLUE
+!line:=-=
