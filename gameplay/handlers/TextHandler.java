@@ -1,4 +1,4 @@
-package acidassassin.uno.gameplay.handlers;
+package gameplay.handlers;
 
 import java.util.Scanner;
 

@@ -1,14 +1,14 @@
-package acidassassin.uno.gameplay;
+package gameplay;
 
-import acidassassin.uno.card.AbstractCard;
-import acidassassin.uno.card.NumberCard;
-import acidassassin.uno.card.specialCards.SpecialCard;
-import acidassassin.uno.card.specialCards.DrawCard;
-import acidassassin.uno.card.specialCards.ReverseCard;
-import acidassassin.uno.card.WildCard;
-import acidassassin.uno.card.enums.Color;
-import acidassassin.uno.card.specialCards.SkipCard;
-import acidassassin.uno.gameplay.handlers.TextHandler;
+import card.AbstractCard;
+import card.NumberCard;
+import card.specialCards.SpecialCard;
+import card.specialCards.DrawCard;
+import card.specialCards.ReverseCard;
+import card.WildCard;
+import card.enums.Color;
+import card.specialCards.SkipCard;
+import gameplay.handlers.TextHandler;
 
 import java.util.ArrayList;
 import java.util.Collections;

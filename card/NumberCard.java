@@ -1,7 +1,7 @@
-package acidassassin.uno.card;
+package card;
 
-import acidassassin.uno.card.enums.Color;
-import acidassassin.uno.gameplay.handlers.TextHandler;
+import card.enums.Color;
+import gameplay.handlers.TextHandler;
 
 public class NumberCard extends AbstractCard {
     int value;

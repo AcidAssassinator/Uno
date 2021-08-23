@@ -1,9 +1,9 @@
-package acidassassin.uno.card.specialCards;
+package card.specialCards;
 
-import acidassassin.uno.card.AbstractCard;
-import acidassassin.uno.card.enums.Color;
-import acidassassin.uno.card.enums.Special;
-import acidassassin.uno.gameplay.handlers.TextHandler;
+import card.AbstractCard;
+import card.enums.Color;
+import card.enums.Special;
+import gameplay.handlers.TextHandler;
 
 public abstract class SpecialCard extends AbstractCard {
     Special special;

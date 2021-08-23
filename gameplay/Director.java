@@ -1,10 +1,10 @@
-package acidassassin.uno.gameplay;
+package gameplay;
 
-import acidassassin.uno.card.AbstractCard;
-import acidassassin.uno.gameplay.handlers.TextHandler;
-import acidassassin.uno.player.AIPlayer;
-import acidassassin.uno.player.AbstractPlayer;
-import acidassassin.uno.player.Player;
+import card.AbstractCard;
+import gameplay.handlers.TextHandler;
+import player.AIPlayer;
+import player.AbstractPlayer;
+import player.Player;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package acidassassin.uno.player;
+package player;
 
 public class AIPlayer extends AbstractPlayer{
     @Override

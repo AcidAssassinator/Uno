@@ -1,6 +1,6 @@
-package acidassassin.uno.card;
+package card;
 
-import acidassassin.uno.card.enums.Color;
+import card.enums.Color;
 
 public abstract class AbstractCard {
     Color color;

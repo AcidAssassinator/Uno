@@ -1,7 +1,7 @@
-package acidassassin.uno.card.specialCards;
+package card.specialCards;
 
-import acidassassin.uno.card.enums.Color;
-import acidassassin.uno.card.enums.Special;
+import card.enums.Color;
+import card.enums.Special;
 
 public class ReverseCard extends SpecialCard {
     public ReverseCard(Color color) {

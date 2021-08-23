@@ -1,8 +1,8 @@
-package acidassassin.uno.gameplay.handlers;
+package gameplay.handlers;
 
-import acidassassin.uno.card.AbstractCard;
-import acidassassin.uno.gameplay.CardHolder;
-import acidassassin.uno.gameplay.Director;
+import card.AbstractCard;
+import gameplay.CardHolder;
+import gameplay.Director;
 
 public class CommandHandler {
 	public static String process(String line) {

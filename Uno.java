@@ -1,9 +1,7 @@
-package acidassassin.uno;
-
-import acidassassin.uno.gameplay.Director;
-import acidassassin.uno.gameplay.handlers.FileHandler;
-import acidassassin.uno.gameplay.handlers.TextHandler;
-import acidassassin.uno.gameplay.handlers.CommandHandler;
+import gameplay.Director;
+import gameplay.handlers.FileHandler;
+import gameplay.handlers.TextHandler;
+import gameplay.handlers.CommandHandler;
 
 import java.util.Scanner;
 

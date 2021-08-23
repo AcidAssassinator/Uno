@@ -1,9 +1,9 @@
-package acidassassin.uno.player;
+package player;
 
-import acidassassin.uno.gameplay.Director;
-import acidassassin.uno.gameplay.handlers.CommandHandler;
-import acidassassin.uno.gameplay.handlers.FileHandler;
-import acidassassin.uno.gameplay.handlers.TextHandler;
+import gameplay.Director;
+import gameplay.handlers.CommandHandler;
+import gameplay.handlers.FileHandler;
+import gameplay.handlers.TextHandler;
 
 public class Player extends AbstractPlayer{
     @Override

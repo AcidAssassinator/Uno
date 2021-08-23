@@ -1,4 +1,4 @@
-package acidassassin.uno.card.enums;
+package card.enums;
 
 public enum Special {
     DRAW_TWO,

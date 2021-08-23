@@ -1,8 +1,8 @@
-package acidassassin.uno.player;
+package player;
 
-import acidassassin.uno.card.AbstractCard;
-import acidassassin.uno.gameplay.CardHolder;
-import acidassassin.uno.gameplay.Director;
+import card.AbstractCard;
+import gameplay.CardHolder;
+import gameplay.Director;
 
 public abstract class AbstractPlayer {
     Director director = Director.instance;
