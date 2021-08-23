@@ -27,6 +27,8 @@ public class CommandHandler {
 
 	static String line(String input) {
 		String output = "";
+
+		// Repeat the input across the console width
 		for (int i = 0; i < (int) Math.floor((float) TextHandler.CONSOLE_WIDTH / input.length()); i++) {
 			output = output.concat(input);
 		}
@@ -35,6 +37,8 @@ public class CommandHandler {
 
 	static String center(String input) {
 		String spaces = "";
+
+		// Center the input with the width of the console
 		for (int i = 0; i < (TextHandler.CONSOLE_WIDTH - input.length()) / 2; i++) {
 			spaces = spaces.concat(" ");
 		}
@@ -45,12 +49,12 @@ public class CommandHandler {
 		CardHolder hand = Director.instance.currentPlayer.hand;
 		String cardNames = "";
 
+		// Loop through each card of the player's hand
 		for (AbstractCard card : hand) {
 			cardNames = cardNames.concat(center((hand.indexOf(card) + 1) + ") " + card.getName()) + "\n");
 		}
 
 		cardNames = cardNames.stripTrailing();
-
 		return cardNames;
 	}
 

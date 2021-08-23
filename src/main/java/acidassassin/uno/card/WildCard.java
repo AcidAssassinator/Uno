@@ -15,6 +15,10 @@ public class WildCard extends AbstractCard {
         return isPlusFour;
     }
 
+	public void setColor (Color color) {
+		this.color = color;
+	}
+
     @Override
     public void play() {
 

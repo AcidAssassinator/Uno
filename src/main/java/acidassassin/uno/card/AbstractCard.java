@@ -9,6 +9,9 @@ public abstract class AbstractCard {
         this.color = color;
     }
 
+
+		// Get & Set //
+
     public Color getColor() {
         return color;
     }
@@ -16,6 +19,9 @@ public abstract class AbstractCard {
     public void setColor(Color color) {
         this.color = color;
     }
+
+	
+		// Abstract methods //
 
     public abstract void play();
 

@@ -21,9 +21,11 @@ public class Player extends AbstractPlayer{
         try {
             play(hand.get(Integer.parseInt(input) - 1));
             return;
+			
         } catch (NumberFormatException e) {
             TextHandler.println("Please input a valid command");
             getCommand();
+
         } catch (IndexOutOfBoundsException e) {
             TextHandler.println("Card does not exist");
             getCommand();

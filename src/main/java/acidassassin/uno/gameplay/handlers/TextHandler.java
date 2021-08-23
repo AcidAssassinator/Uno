@@ -29,6 +29,7 @@ public class TextHandler {
 	}
 
 	public static void clearConsole () {
+		// Write 50 lines of whitespace
 		for (int i = 0; i < 50; i++) {
 			System.out.println("");
 		}

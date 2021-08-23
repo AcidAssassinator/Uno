@@ -59,6 +59,7 @@ public class CardHolder extends ArrayList<AbstractCard> {
         try {
             return this.get(this.size() - 1);
         } catch (IndexOutOfBoundsException e) {
+			// TODO replace with actual logic handling
             return new NumberCard(Color.RED, 0);
         }
     }

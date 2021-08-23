@@ -19,7 +19,7 @@ public class FileHandler {
 			// Loop through lines
 			String line;
 			while ((line = reader.readLine()) != null) {
-				// Print the result of the provided function on every line
+				// Apply the lambda function to each line
 				TextHandler.println(function.apply(line));
 			}
 

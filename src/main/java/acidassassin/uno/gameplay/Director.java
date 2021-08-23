@@ -50,6 +50,7 @@ public class Director {
         // GAME METHODS //
 
     public void dealCards() {
+		// Deal 7 cards to each player
         for (int i = 0; i < 7; i++) {
             for (AbstractPlayer player : players) {
                 AbstractCard c = player.draw();
@@ -58,6 +59,7 @@ public class Director {
     }
 
     void play() {
+		// Update current player
         currentPlayer = players.get(0);
         nextPlayer = players.get(1);
 
